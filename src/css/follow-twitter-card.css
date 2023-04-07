@@ -41,7 +41,7 @@
 }
 
 .FollowProfileCard-buttonFollow.is-follow {
-    background: red;
+    background: var(--red);
     color: var(--white);
 }
 
