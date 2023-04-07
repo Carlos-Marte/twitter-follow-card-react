@@ -5,11 +5,22 @@ const Main = () => {
   const addArroba = (nickName) => `@${nickName}`;
 
   return (
-    <main>
-      {/* <FollowTwitterCard name='MiduDev' nickName='midudev' />
-      <FollowTwitterCard name='Maria' nickName='mariam' />
-      <FollowTwitterCard name='Fernand' nickName='fer23nd' /> */}
-      <FollowTwitterCard name='Kimberly' nickName='kimm' addArroba={addArroba} />
+    <main className='Main'>
+      <FollowTwitterCard
+        name='Miguel Ángel Durán'
+        nickName='midudev'
+        addArroba={addArroba}
+      />
+      <FollowTwitterCard
+        name='Nicolás Schürmann'
+        nickName='_nasch_'
+        addArroba={addArroba}
+      />
+      <FollowTwitterCard
+        name='Martín'
+        nickName='BettaTech'
+        addArroba={addArroba}
+      />
     </main>
   );
 };
