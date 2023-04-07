@@ -1,6 +1,8 @@
+import Main from './components/Main';
+
 const App = () => {
   return (
-    <h1>App</h1>
+    <Main />
   );
 };
 
