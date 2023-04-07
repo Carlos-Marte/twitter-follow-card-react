@@ -1,0 +1,51 @@
+.FollowProfileCard {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FollowProfileCard-userInfo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.FollowProfileCard-img {
+    width: 48px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.FollowProfileCard-name {
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+.FollowProfileCard-nickName {
+    color: var(--light-gray);
+    line-height: 1.5;
+}
+
+.FollowProfileCard-buttonFollow {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 600;
+    padding: .5em 1em;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.FollowProfileCard-buttonFollow.is-follow {
+    background: red;
+    color: var(--white);
+}
+
+.FollowProfileCard-buttonFollow:hover.is-not-follow {
+    background: var(--blue);
+    color: var(--white);
+}

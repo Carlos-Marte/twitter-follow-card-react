@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../css/follow-twitter-card.css';
 
 export const FollowTwitterCard = ({ nickName, name, addArroba }) => {
   const [follow, setFollow] = useState(false);
